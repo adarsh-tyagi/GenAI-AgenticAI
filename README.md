@@ -4,3 +4,4 @@
 - LangGraph
 - MCP
 - RAG (Retrieval Augumented Generation)
+- Vectorless RAG
