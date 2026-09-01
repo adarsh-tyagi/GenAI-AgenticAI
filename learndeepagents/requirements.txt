@@ -1,0 +1,8 @@
+deepagents
+langchain
+langchain-groq
+langchain-google-genai
+ipykernel
+tavily-python
+python-dotenv
+langchain_quickjs
