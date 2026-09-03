@@ -21,3 +21,11 @@ We are using `uv` package and project manager here.
 3. Then activate it by running `.venv\Scripts\activate`
 4. Then create other necessary file like requirements.txt and .env file
 5. To install the requirements use `uv add -r requirements.txt` command
+
+### To setup env as notebook kernel, sometimes we need to sync the environment
+If ipykernel is already installed, the missing step is usually registering the environment as a Jupyter kernel. Installing the package alone does not make the env appear in the kernel picker.
+
+- `uv run python -m ipykernel install --user --name my-uv-env --display-name "Python (my-uv-env)"` - That creates a Jupyter kernel spec pointing to your uv environment, which is what Jupyter actually lists.
+- `jupyter kernelspec list` - to verify if it exists
+
+<b>After registering, fully restart VS Code or the Jupyter app, then reopen the notebook and choose the new kernel name from the selector</b>
