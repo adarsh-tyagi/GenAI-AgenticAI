@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "beautifulsoup4>=4.15.0",
     "chromadb>=1.5.9",
     "faiss-cpu>=1.14.3",
     "ipykernel>=7.3.0",
@@ -18,6 +19,7 @@ dependencies = [
     "langchain-text-splitters>=1.1.2",
     "langgraph>=1.2.10",
     "pageindex>=0.2.8",
+    "pandas>=3.0.5",
     "pymupdf>=1.28.0",
     "pypdf>=6.14.2",
     "python-dotenv>=1.2.2",
