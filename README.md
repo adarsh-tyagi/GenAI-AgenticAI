@@ -6,6 +6,8 @@
 - RAG (Retrieval Augumented Generation)
 - Vectorless RAG
 - Deep Agents
+- RAG Evaluation using Langsmith
+- LLM Gateways
 
 
 <b> NOTE: We will be using different API keys to use the resources. Generate these free API keys and store in .env file with these values to use in your code.</b>
